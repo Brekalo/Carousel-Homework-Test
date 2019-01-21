@@ -1,0 +1,9 @@
+.slide-container {
+    width: 12rem;
+    height: 100%;
+    background-color: black;
+    transform: perspective(1px) translateY(-1%);
+    position: relative;
+    top: 20%;
+    box-sizing: border-box;
+}

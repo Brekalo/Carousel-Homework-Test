@@ -1,0 +1,28 @@
+.slider-container {
+    height: 33.5vh;
+    position: relative;
+    overflow: hidden;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 13%;
+}
+
+.slider-image-container {
+    width: 20000px;
+    height: 100%;
+    display: flex;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 3em;
+    transform: translate(-50%) rotate(90deg);
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0em;
+    transform: translate(-50%) rotate(-90deg);
+}
